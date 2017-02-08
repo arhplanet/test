@@ -1,0 +1,15 @@
+{
+  "name": "testtest2",
+  "app_id": "",
+  "watchPatterns": [
+    "www/js/*",
+    "!www/css/**/*",
+    "scss/*"
+  ],
+  "proxies": [
+    {
+      "path": "/eulaversion",
+      "proxyUrl": "https://local.soci80bank.com/eulaversion"
+    }
+  ]
+}
